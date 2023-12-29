@@ -1,0 +1,32 @@
+Q2.Explain the difference between Absolute and Relative positioning.
+
+solution:-
+           In CSS, absolute positioning places an element relative 
+           to its parent's position, changing the layout around it. 
+           Relative positioning places an element relative to its 
+           default position on the page, taking up space in the 
+           normal flow of the page.
+
+ Absolute positioning;-
+          1.The position of the element is determined directly towards 
+           the GNSS satellites, and only one GNSS receiver is used.
+           Absolute positioning defines the position of a given bounding 
+           box from the top and left side margins of the web page.
+          2.The element is removed from the normal document flow, and no 
+           space is created for the element in the page layout. 
+           The element is positioned relative to its closest positioned 
+           ancestor (if any) or to the initial containing block. 
+           Its final position is determined by the values of top, right, bottom, and left.
+          
+
+Relative positioning:-
+          1.The position of the receiver is determined relative to one or 
+          more points with known position. Relative positioning refers 
+          to positioning an element relative to its default position on 
+          the page.
+          2.The element is positioned according to the normal flow of 
+          the document, and then offset relative to itself based on 
+          the values of top, right, bottom, and left. The offset does 
+          not affect the position of any other elements; thus, 
+          the space given for the element in the page layout is the 
+          same as if position were static.
